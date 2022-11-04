@@ -8,12 +8,17 @@ void main() {
       home: Scaffold(
         body: ControlCheckbox(),
 
-        appBar: AppBar(title: Text('APELSEN'),automaticallyImplyLeading: false ,
-        backgroundColor: Color(0xffF1650E,),),
+        appBar: AppBar(
+          title: Text('APELSEN'),
+          automaticallyImplyLeading: false,
+          backgroundColor: Color(
+            0xffF1650E,
+          ),
+        ),
         // appBar: AppBar(
         // actions: [TextButton(onPressed: (){}, child: Icon(Icons.account_circle,color: Colors.white,size: 40,)) ],
         //   backgroundColor: Colors.green,
-     
+
         //   title: Container(
         //     height: 30,
         //     width: 280,
@@ -28,7 +33,7 @@ void main() {
         //           suffixIcon: Icon(Icons.mic)),
         //     ),
         //   ),
-          
+
         // ),
       ),
     ),

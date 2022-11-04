@@ -179,6 +179,7 @@ class _ControlCheckboxState extends State<ControlCheckbox> {
                 ),
               ),
             ),
+            
             SizedBox(
               height: 80,
             ),
